@@ -49,7 +49,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  buildModules: ['@nuxtjs/style-resources'],
+  // buildModules: ['@nuxtjs/style-resources'],
   styleResources: {
     scss: ['swiper/swiper.scss'],
   },

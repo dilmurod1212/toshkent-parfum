@@ -1,6 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen">
-    <LayoutHeader />
+    <LayoutHeader class="max-md:hidden"/>
+    <LayoutResponsiveHeader class="md:hidden "/>
     <div class="flex-grow bg-gray-50">
       <slot></slot>
     </div>
